@@ -1,0 +1,20 @@
+0x8b2::/home/m4ssi/Documents/Test/Dotprod/03.dotprod.c:7::Insn: VMOVAPD	(%RBX,%R11,1),%YMM10::
+0x8b8::/home/m4ssi/Documents/Test/Dotprod/03.dotprod.c:7::Insn: VFMADD231PD	(%R12,%R11,1),%YMM10,%YMM9::
+0x8be::/home/m4ssi/Documents/Test/Dotprod/03.dotprod.c:7::Insn: ADD	$0x8,%RCX::
+0x8c2::/home/m4ssi/Documents/Test/Dotprod/03.dotprod.c:7::Insn: VMOVAPD	0x20(%RBX,%R11,1),%YMM11::
+0x8c9::/home/m4ssi/Documents/Test/Dotprod/03.dotprod.c:7::Insn: VFMADD231PD	0x20(%R12,%R11,1),%YMM11,%YMM9::
+0x8d0::/home/m4ssi/Documents/Test/Dotprod/03.dotprod.c:7::Insn: VMOVAPD	0x40(%RBX,%R11,1),%YMM12::
+0x8d7::/home/m4ssi/Documents/Test/Dotprod/03.dotprod.c:7::Insn: VFMADD231PD	0x40(%R12,%R11,1),%YMM12,%YMM9::
+0x8de::/home/m4ssi/Documents/Test/Dotprod/03.dotprod.c:7::Insn: VMOVAPD	0x60(%RBX,%R11,1),%YMM13::
+0x8e5::/home/m4ssi/Documents/Test/Dotprod/03.dotprod.c:7::Insn: VFMADD231PD	0x60(%R12,%R11,1),%YMM13,%YMM9::
+0x8ec::/home/m4ssi/Documents/Test/Dotprod/03.dotprod.c:7::Insn: VMOVAPD	0x80(%RBX,%R11,1),%YMM14::
+0x8f6::/home/m4ssi/Documents/Test/Dotprod/03.dotprod.c:7::Insn: VFMADD231PD	0x80(%R12,%R11,1),%YMM14,%YMM9::
+0x900::/home/m4ssi/Documents/Test/Dotprod/03.dotprod.c:7::Insn: VMOVAPD	0xa0(%RBX,%R11,1),%YMM15::
+0x90a::/home/m4ssi/Documents/Test/Dotprod/03.dotprod.c:7::Insn: VFMADD231PD	0xa0(%R12,%R11,1),%YMM15,%YMM9::
+0x914::/home/m4ssi/Documents/Test/Dotprod/03.dotprod.c:7::Insn: VMOVAPD	0xc0(%RBX,%R11,1),%YMM0::
+0x91e::/home/m4ssi/Documents/Test/Dotprod/03.dotprod.c:7::Insn: VFMADD231PD	0xc0(%R12,%R11,1),%YMM0,%YMM9::
+0x928::/home/m4ssi/Documents/Test/Dotprod/03.dotprod.c:7::Insn: VMOVAPD	0xe0(%RBX,%R11,1),%YMM2::
+0x932::/home/m4ssi/Documents/Test/Dotprod/03.dotprod.c:7::Insn: VFMADD231PD	0xe0(%R12,%R11,1),%YMM2,%YMM9::
+0x93c::/home/m4ssi/Documents/Test/Dotprod/03.dotprod.c:7::Insn: ADD	$0x100,%R11::
+0x943::/home/m4ssi/Documents/Test/Dotprod/03.dotprod.c:7::Insn: CMP	%RAX,%RCX::
+0x946::/home/m4ssi/Documents/Test/Dotprod/03.dotprod.c:7::Insn: JB	8b2 <main+0x1f2>::

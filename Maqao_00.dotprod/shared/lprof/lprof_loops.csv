@@ -1,0 +1,3 @@
+loop_id;module;function_name;source_info;level;time_p;time_s;time_s_min;time_s_avg;time_s_max;cov_deviation;nb_threads;
+0;binary;dotprod;00.dotprod.c:6-7;Single;99.98;4.14;4.14;4.14;4.14;0;1;
+1;binary;fill_vector;00.dotprod.c:12-13;Single;0.02;0;0;0;0;0;1;

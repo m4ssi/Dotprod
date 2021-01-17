@@ -1,0 +1,5 @@
+Node;Process;Thread;System (%);Binary (%);Time (s);Math (%);OMP (%);String (%);Others (%);IO (%);Memory (%);MPI (%);Pthread (%);
+_ALL;_ALL;_ALL;0;100;1.18;0;0;0;0;0;0;0;0;
+m4ssi-ThinkPad-X240;_ALL;_ALL;0;100;1.18;0;0;0;0;0;0;0;0;
+m4ssi-ThinkPad-X240;3649;_ALL;0;100;1.18;0;0;0;0;0;0;0;0;
+m4ssi-ThinkPad-X240;3649;3649;0;100;1.18;0;0;0;0;0;0;0;0;

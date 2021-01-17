@@ -1,0 +1,5 @@
+/home/m4ssi/Documents/Test/Dotprod/00.dotprod.c: 12 - 13
+--------------------------------------------------------------------------------
+
+12: 	for (unsigned long long i = 0; i < n; i++)
+13: 		vect[i] = 1;

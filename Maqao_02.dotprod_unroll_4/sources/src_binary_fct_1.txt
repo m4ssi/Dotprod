@@ -1,0 +1,49 @@
+/usr/include/stdlib.h: 375 - 375
+--------------------------------------------------------------------------------
+
+375:   return strtoll (__nptr, (char **) NULL, 10);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h: 104 - 104
+--------------------------------------------------------------------------------
+
+104:   return __printf_chk (__USE_FORTIFY_LEVEL - 1, __fmt, __va_arg_pack ());
+/home/m4ssi/Documents/Test/Dotprod/02.dotprod.c: 5 - 62
+--------------------------------------------------------------------------------
+
+5: 	double d = 0.0;
+6: 	for ( unsigned long long i = 0; i < n; i+=4)	{
+7: 		d += ( *(a+i) * *(b+i) );
+8: 		d += ( *(a+i+1) * *(b+i+1) );
+9: 		d += ( *(a+i+2) * *(b+i+2) );
+10: 		d += ( *(a+i+3) * *(b+i+3) );
+[...]
+24: int main ( int argc, char ** argv)	{
+25: 	if ( argc == 1) return 1;
+26: 	
+27: 	// Size of vectors
+28: 	unsigned long long n = atoll ( argv[1]);
+29: 	unsigned long long n_b = n/sizeof(double);
+30: 
+31: 	printf ("%llu\n", n);
+32: 
+33: 	// Allocate memory for vectors
+34: 	double	* p_a = NULL,
+35: 			* p_b = NULL;
+36: 	int ret = 0;
+37: 	ret +=posix_memalign ((void **)  &p_a, 32, n);
+38: 	ret += posix_memalign ((void **) &p_b, 32, n);
+39: 	if ( ret) return 2;		
+[...]
+45: 	fill_vector ( a, n_b);
+46: 	fill_vector ( b, n_b);
+47: 	
+48: 	
+49: 	// Doing a dotprod
+50: 	for ( int i = 0; i < 10000; i++)
+51: 		res = dotprod ( a, b, n_b);
+52: 
+53: 
+54: 	// Free memory
+55: 	free ( a);
+56: 	free ( b);
+[...]
+62: }

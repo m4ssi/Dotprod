@@ -1,0 +1,25 @@
+[MAQAO] PROCESS LAUNCHED (host m4ssi-ThinkPad-X240, process 2816)
+1048576
+Res : 131072.000000
+[MAQAO] STOP PROFILING (host m4ssi-ThinkPad-X240, process 2816)
+[MAQAO] DUMPING SAMPLES (host m4ssi-ThinkPad-X240, process 2816)
+[MAQAO] FINISHED DUMPING SAMPLES (host m4ssi-ThinkPad-X240, process 2816)
+[MAQAO] DUMPING SOURCE INFO FOR CALLCHAIN NODES (host m4ssi-ThinkPad-X240, process 2816)
+[MAQAO] FINISHED DUMPING SOURCE INFO FOR CALLCHAIN NODES (host m4ssi-ThinkPad-X240, process 2816)
+[MAQAO] ANALYZING binary (host m4ssi-ThinkPad-X240)
+[MAQAO] binary (host m4ssi-ThinkPad-X240) DONE
+[MAQAO] Your experiment path is /home/m4ssi/Documents/Test/Dotprod/Maqao_00.dotprod/lprof_npsu/
+[MAQAO] To display your profiling results:
+#################################################################################################
+#    LEVEL    |     REPORT     |                            COMMAND                             #
+#################################################################################################
+#  Functions  |  Cluster-wide  |  maqao lprof -df xp=/home/m4ssi/Documents/Test/Dotprod/Maqao_  #
+#  Functions  |  Per-node      |  maqao lprof -df -dn xp=/home/m4ssi/Documents/Test/Dotprod/Ma  #
+#  Functions  |  Per-process   |  maqao lprof -df -dp xp=/home/m4ssi/Documents/Test/Dotprod/Ma  #
+#  Functions  |  Per-thread    |  maqao lprof -df -dt xp=/home/m4ssi/Documents/Test/Dotprod/Ma  #
+#  Loops      |  Cluster-wide  |  maqao lprof -dl xp=/home/m4ssi/Documents/Test/Dotprod/Maqao_  #
+#  Loops      |  Per-node      |  maqao lprof -dl -dn xp=/home/m4ssi/Documents/Test/Dotprod/Ma  #
+#  Loops      |  Per-process   |  maqao lprof -dl -dp xp=/home/m4ssi/Documents/Test/Dotprod/Ma  #
+#  Loops      |  Per-thread    |  maqao lprof -dl -dt xp=/home/m4ssi/Documents/Test/Dotprod/Ma  #
+#################################################################################################
+

@@ -1,0 +1,5 @@
+main - /home/m4ssi/Documents/Test/Dotprod/00.dotprod.c:37
+binary
+__libc_start_main - :0
+libc-2.27.so
+main - /home/m4ssi/Documents/Test/Dotprod/00.dotprod.c:36

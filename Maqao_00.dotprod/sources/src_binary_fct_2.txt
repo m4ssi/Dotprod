@@ -1,0 +1,7 @@
+/home/m4ssi/Documents/Test/Dotprod/00.dotprod.c: 11 - 14
+--------------------------------------------------------------------------------
+
+11: void fill_vector (double *restrict vect, unsigned long long n)	{
+12: 	for (unsigned long long i = 0; i < n; i++)
+13: 		vect[i] = 1;
+14: }

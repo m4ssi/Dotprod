@@ -1,0 +1,9 @@
+/home/m4ssi/Documents/Test/Dotprod/00.dotprod.c: 4 - 9
+--------------------------------------------------------------------------------
+
+4: double dotprod(double *restrict a, double *restrict b, unsigned long long n)	{
+5: 	double d = 0.0;
+6: 	for ( unsigned long long i = 0; i < n; i++)
+7: 		d += a[i] * b[i];
+8: 	return d;	
+9: }

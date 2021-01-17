@@ -1,0 +1,5 @@
+/home/m4ssi/Documents/Test/Dotprod/00.dotprod.c: 6 - 7
+--------------------------------------------------------------------------------
+
+6: 	for ( unsigned long long i = 0; i < n; i++)
+7: 		d += a[i] * b[i];
